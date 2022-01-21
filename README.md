@@ -1,1 +1,1 @@
-passwordgenerator.githab.io
+https://nadiaschmitz.github.io/passwordgenerator.githab.io/
