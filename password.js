@@ -1,4 +1,5 @@
 $("#ok").on('click', function() {
+
     let name = $("#field_1").val();
     let passwords_1 = [];
     let passwords_2 = [];
@@ -31,4 +32,9 @@ $("#ok").on('click', function() {
         $(passwords_box_3[i]).text(passwords_3[i]);
         $(passwords_box_3[i]).addClass("visible");
     }
+
+    if (name == "") {
+      $(".passwort").hide();
+    }
+
   })
